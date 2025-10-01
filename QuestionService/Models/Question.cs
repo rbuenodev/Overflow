@@ -11,7 +11,7 @@ namespace QuestionService.Models
         [MaxLength(5000)]
         public required string Content { get; set; }
         [MaxLength(36)]
-        public required string AkserId { get; set; }
+        public required string AskerId { get; set; }
         [MaxLength(300)]
         public required string AskerDisplayName { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;

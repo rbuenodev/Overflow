@@ -29,7 +29,7 @@ namespace QuestionService.Data.Migrations
                         .HasMaxLength(36)
                         .HasColumnType("character varying(36)");
 
-                    b.Property<string>("AkserId")
+                    b.Property<string>("AskerId")
                         .IsRequired()
                         .HasMaxLength(36)
                         .HasColumnType("character varying(36)");

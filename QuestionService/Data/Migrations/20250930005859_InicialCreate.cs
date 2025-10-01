@@ -21,7 +21,7 @@ namespace QuestionService.Data.Migrations
                     Id = table.Column<string>(type: "character varying(36)", maxLength: 36, nullable: false),
                     Title = table.Column<string>(type: "character varying(300)", maxLength: 300, nullable: false),
                     Content = table.Column<string>(type: "character varying(5000)", maxLength: 5000, nullable: false),
-                    AkserId = table.Column<string>(type: "character varying(36)", maxLength: 36, nullable: false),
+                    AskerId = table.Column<string>(type: "character varying(36)", maxLength: 36, nullable: false),
                     AskerDisplayName = table.Column<string>(type: "character varying(300)", maxLength: 300, nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     UpdatedAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: true),
