@@ -1,0 +1,1 @@
+https://bfritscher.github.io/typesense-dashboard/#/
